@@ -1,7 +1,7 @@
 Package: pkcpp
 Type: Package
 Title: Function of R in Rcpp
-Version: 1.0
+Version: 1.1
 Date: 2022-08-30
 Author: Your Name
 Maintainer: Your Name <your@email.com>
