@@ -3,7 +3,7 @@ using namespace Rcpp;
 using namespace std;
 
 // [[Rcpp::export]]
-NumericMatrix addColumn_rcpp(NumericMatrix  A, NumericVector x) {
+NumericMatrix addC(NumericMatrix  A, NumericVector x) {
   if(x.size() == A.nrow()){
     NumericMatrix NewA(A.nrow() , A.ncol()+1);
     NumericVector aux;

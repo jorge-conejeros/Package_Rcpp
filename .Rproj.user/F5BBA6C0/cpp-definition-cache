@@ -1,13 +1,13 @@
 [
     {
         "file": "C:/Users/jorge/Documents/pkcpp/src/MaxMin.cpp",
-        "file_last_write": 1661882138.0,
+        "file_last_write": 1661892017.0,
         "definitions": [
             {
-                "usr": "c:@F@MaxMin_rcpp#$@N@Rcpp@S@Matrix>#VI14#@N@Rcpp@ST>1#T@PreserveStorage#S0_#",
+                "usr": "c:@F@MaxMin#$@N@Rcpp@S@Matrix>#VI14#@N@Rcpp@ST>1#T@PreserveStorage#S0_#",
                 "kind": 6,
                 "parent_name": "",
-                "name": "MaxMin_rcpp(Rcpp::NumericMatrix, Rcpp::NumericMatrix)",
+                "name": "MaxMin(Rcpp::NumericMatrix, Rcpp::NumericMatrix)",
                 "file": "C:/Users/jorge/Documents/pkcpp/src/MaxMin.cpp",
                 "line": 6,
                 "column": 15,
@@ -52,13 +52,13 @@
     },
     {
         "file": "C:/Users/jorge/Documents/pkcpp/src/SearchMin.cpp",
-        "file_last_write": 1661880953.0,
+        "file_last_write": 1661891914.0,
         "definitions": [
             {
-                "usr": "c:@F@SearchMin_Rcpp#$@N@Rcpp@S@Matrix>#VI14#@N@Rcpp@ST>1#T@PreserveStorage#",
+                "usr": "c:@F@SearchMin#$@N@Rcpp@S@Matrix>#VI14#@N@Rcpp@ST>1#T@PreserveStorage#",
                 "kind": 6,
                 "parent_name": "",
-                "name": "SearchMin_Rcpp(Rcpp::NumericMatrix)",
+                "name": "SearchMin(Rcpp::NumericMatrix)",
                 "file": "C:/Users/jorge/Documents/pkcpp/src/SearchMin.cpp",
                 "line": 6,
                 "column": 11,
@@ -68,15 +68,15 @@
         "hidden": false
     },
     {
-        "file": "C:/Users/jorge/Documents/pkcpp/src/addColumn.cpp",
-        "file_last_write": 1661881135.0,
+        "file": "C:/Users/jorge/Documents/pkcpp/src/addC.cpp",
+        "file_last_write": 1661891945.0,
         "definitions": [
             {
-                "usr": "c:@F@addColumn_rcpp#$@N@Rcpp@S@Matrix>#VI14#@N@Rcpp@ST>1#T@PreserveStorage#$@N@Rcpp@S@Vector>#VI14#@N@Rcpp@ST>1#T@PreserveStorage#",
+                "usr": "c:@F@addC#$@N@Rcpp@S@Matrix>#VI14#@N@Rcpp@ST>1#T@PreserveStorage#$@N@Rcpp@S@Vector>#VI14#@N@Rcpp@ST>1#T@PreserveStorage#",
                 "kind": 6,
                 "parent_name": "",
-                "name": "addColumn_rcpp(Rcpp::NumericMatrix, Rcpp::NumericVector)",
-                "file": "C:/Users/jorge/Documents/pkcpp/src/addColumn.cpp",
+                "name": "addC(Rcpp::NumericMatrix, Rcpp::NumericVector)",
+                "file": "C:/Users/jorge/Documents/pkcpp/src/addC.cpp",
                 "line": 6,
                 "column": 15,
                 "hidden": false
@@ -85,34 +85,17 @@
         "hidden": false
     },
     {
-        "file": "C:/Users/jorge/Documents/pkcpp/src/addRow.cpp",
-        "file_last_write": 1661881136.0,
+        "file": "C:/Users/jorge/Documents/pkcpp/src/addR.cpp",
+        "file_last_write": 1661892490.0,
         "definitions": [
             {
-                "usr": "c:@F@addRow_rcpp#$@N@Rcpp@S@Matrix>#VI14#@N@Rcpp@ST>1#T@PreserveStorage#$@N@Rcpp@S@Vector>#VI14#@N@Rcpp@ST>1#T@PreserveStorage#",
+                "usr": "c:@F@addR#$@N@Rcpp@S@Matrix>#VI14#@N@Rcpp@ST>1#T@PreserveStorage#$@N@Rcpp@S@Vector>#VI14#@N@Rcpp@ST>1#T@PreserveStorage#",
                 "kind": 6,
                 "parent_name": "",
-                "name": "addRow_rcpp(Rcpp::NumericMatrix, Rcpp::NumericVector)",
-                "file": "C:/Users/jorge/Documents/pkcpp/src/addRow.cpp",
+                "name": "addR(Rcpp::NumericMatrix, Rcpp::NumericVector)",
+                "file": "C:/Users/jorge/Documents/pkcpp/src/addR.cpp",
                 "line": 6,
                 "column": 15,
-                "hidden": false
-            }
-        ],
-        "hidden": false
-    },
-    {
-        "file": "C:/Users/jorge/Documents/pkcpp/src/rcpp_hello_world.cpp",
-        "file_last_write": 1661888754.0,
-        "definitions": [
-            {
-                "usr": "c:@F@rcpp_hello_world#",
-                "kind": 6,
-                "parent_name": "",
-                "name": "rcpp_hello_world",
-                "file": "C:/Users/jorge/Documents/pkcpp/src/rcpp_hello_world.cpp",
-                "line": 6,
-                "column": 6,
                 "hidden": false
             }
         ],

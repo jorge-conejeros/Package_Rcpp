@@ -3,7 +3,7 @@ using namespace Rcpp;
 using namespace std;
 
 // [[Rcpp::export]]
-NumericMatrix MaxMin_rcpp(NumericMatrix A, NumericMatrix B) {
+NumericMatrix MaxMin(NumericMatrix A, NumericMatrix B) {
   int n = A.nrow();
   NumericMatrix C(n);
   for(int f = 0; f < n; f++){

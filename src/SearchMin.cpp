@@ -3,7 +3,7 @@ using namespace Rcpp;
 using namespace std;
 
 // [[Rcpp::export]]
-DataFrame SearchMin_Rcpp(NumericMatrix  x) {
+DataFrame SearchMin(NumericMatrix  x) {
   int n = 0;
   int filas = x.nrow();
   int columnas = x.ncol();

@@ -10,15 +10,15 @@ Rcpp::Rostream<true>&  Rcpp::Rcout = Rcpp::Rcpp_cout_get();
 Rcpp::Rostream<false>& Rcpp::Rcerr = Rcpp::Rcpp_cerr_get();
 #endif
 
-// MaxMin_rcpp
-NumericMatrix MaxMin_rcpp(NumericMatrix A, NumericMatrix B);
-RcppExport SEXP _pkcpp_MaxMin_rcpp(SEXP ASEXP, SEXP BSEXP) {
+// MaxMin
+NumericMatrix MaxMin(NumericMatrix A, NumericMatrix B);
+RcppExport SEXP _pkcpp_MaxMin(SEXP ASEXP, SEXP BSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
     Rcpp::traits::input_parameter< NumericMatrix >::type A(ASEXP);
     Rcpp::traits::input_parameter< NumericMatrix >::type B(BSEXP);
-    rcpp_result_gen = Rcpp::wrap(MaxMin_rcpp(A, B));
+    rcpp_result_gen = Rcpp::wrap(MaxMin(A, B));
     return rcpp_result_gen;
 END_RCPP
 }
@@ -45,60 +45,49 @@ BEGIN_RCPP
     return rcpp_result_gen;
 END_RCPP
 }
-// SearchMin_Rcpp
-DataFrame SearchMin_Rcpp(NumericMatrix x);
-RcppExport SEXP _pkcpp_SearchMin_Rcpp(SEXP xSEXP) {
+// SearchMin
+DataFrame SearchMin(NumericMatrix x);
+RcppExport SEXP _pkcpp_SearchMin(SEXP xSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
     Rcpp::traits::input_parameter< NumericMatrix >::type x(xSEXP);
-    rcpp_result_gen = Rcpp::wrap(SearchMin_Rcpp(x));
+    rcpp_result_gen = Rcpp::wrap(SearchMin(x));
     return rcpp_result_gen;
 END_RCPP
 }
-// addColumn_rcpp
-NumericMatrix addColumn_rcpp(NumericMatrix A, NumericVector x);
-RcppExport SEXP _pkcpp_addColumn_rcpp(SEXP ASEXP, SEXP xSEXP) {
+// addC
+NumericMatrix addC(NumericMatrix A, NumericVector x);
+RcppExport SEXP _pkcpp_addC(SEXP ASEXP, SEXP xSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
     Rcpp::traits::input_parameter< NumericMatrix >::type A(ASEXP);
     Rcpp::traits::input_parameter< NumericVector >::type x(xSEXP);
-    rcpp_result_gen = Rcpp::wrap(addColumn_rcpp(A, x));
+    rcpp_result_gen = Rcpp::wrap(addC(A, x));
     return rcpp_result_gen;
 END_RCPP
 }
-// addRow_rcpp
-NumericMatrix addRow_rcpp(NumericMatrix A, NumericVector x);
-RcppExport SEXP _pkcpp_addRow_rcpp(SEXP ASEXP, SEXP xSEXP) {
+// addR
+NumericMatrix addR(NumericMatrix A, NumericVector x);
+RcppExport SEXP _pkcpp_addR(SEXP ASEXP, SEXP xSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
     Rcpp::traits::input_parameter< NumericMatrix >::type A(ASEXP);
     Rcpp::traits::input_parameter< NumericVector >::type x(xSEXP);
-    rcpp_result_gen = Rcpp::wrap(addRow_rcpp(A, x));
-    return rcpp_result_gen;
-END_RCPP
-}
-// rcpp_hello_world
-List rcpp_hello_world();
-RcppExport SEXP _pkcpp_rcpp_hello_world() {
-BEGIN_RCPP
-    Rcpp::RObject rcpp_result_gen;
-    Rcpp::RNGScope rcpp_rngScope_gen;
-    rcpp_result_gen = Rcpp::wrap(rcpp_hello_world());
+    rcpp_result_gen = Rcpp::wrap(addR(A, x));
     return rcpp_result_gen;
 END_RCPP
 }
 
 static const R_CallMethodDef CallEntries[] = {
-    {"_pkcpp_MaxMin_rcpp", (DL_FUNC) &_pkcpp_MaxMin_rcpp, 2},
+    {"_pkcpp_MaxMin", (DL_FUNC) &_pkcpp_MaxMin, 2},
     {"_pkcpp_MxM", (DL_FUNC) &_pkcpp_MxM, 2},
     {"_pkcpp_SearchMax", (DL_FUNC) &_pkcpp_SearchMax, 1},
-    {"_pkcpp_SearchMin_Rcpp", (DL_FUNC) &_pkcpp_SearchMin_Rcpp, 1},
-    {"_pkcpp_addColumn_rcpp", (DL_FUNC) &_pkcpp_addColumn_rcpp, 2},
-    {"_pkcpp_addRow_rcpp", (DL_FUNC) &_pkcpp_addRow_rcpp, 2},
-    {"_pkcpp_rcpp_hello_world", (DL_FUNC) &_pkcpp_rcpp_hello_world, 0},
+    {"_pkcpp_SearchMin", (DL_FUNC) &_pkcpp_SearchMin, 1},
+    {"_pkcpp_addC", (DL_FUNC) &_pkcpp_addC, 2},
+    {"_pkcpp_addR", (DL_FUNC) &_pkcpp_addR, 2},
     {NULL, NULL, 0}
 };
 
