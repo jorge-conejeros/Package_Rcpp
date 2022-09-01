@@ -18,5 +18,7 @@ Numeric Matrix with the result of A x B
 Given a matrix A and a matrix B, returns the multiplication between A and B
 }
 \examples{
-C <- MxM(myMatrix1 , myMatrix2);
+mA <- matrix(1:12, nrow = 3, ncol = 4);
+mB <- matrix(12:1, nrow = 4, ncol = 3);
+MxM(mA,mB);
 }

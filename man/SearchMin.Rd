@@ -16,5 +16,6 @@ Data frame with the index the minimum value
 Given an nxn array, returns the minimum value found and the index where they are found
 }
 \examples{
-MinValue <- SearchMin(myMatrix);
+mA <- matrix(1:12, nrow = 3, ncol = 4);
+SearchMin(mA);
 }

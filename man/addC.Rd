@@ -19,5 +19,8 @@ Given an mxn array and a vector, if size of vector equal to number of row of arr
 added the vector in to array as column
 }
 \examples{
-NewArray <- addColumn(myArray, c(1,2,3,4));
+myArray <- matrix(1:12, nrow = 3, ncol = 4);
+auxV <- c(13,14,15);
+NewArray <- addC(myArray, auxV);
+NewArray;
 }

@@ -16,5 +16,6 @@ Data frame with the index the maximum value
 Given an nxn array, returns the maximum value found and the index where they are found
 }
 \examples{
-MaxValue <- SearchMax(myMatrix);
+mA <- matrix(1:12, nrow = 3, ncol = 4);
+SearchMax(mA);
 }

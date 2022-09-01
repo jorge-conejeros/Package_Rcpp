@@ -19,5 +19,7 @@ Get the minimum elements between the row of A with the column of B,
 then take the maximum value between the minimums and store it in an array C
 }
 \examples{
-C <- MaxMin(myArray1, myArray2);
+mA <- matrix(1:16, nrow = 4, ncol = 4);
+mB <- matrix(16:1, nrow = 4, ncol = 4);
+MaxMin(mA,mB);
 }
