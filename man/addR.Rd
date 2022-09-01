@@ -20,7 +20,7 @@ added the vector in to array as row
 }
 \examples{
 myArray <- matrix(1:12, nrow = 3, ncol = 4);
-auxV <- c(13,14,15);
+auxV <- c(13,14,15,16);
 NewArray <- addR(myArray, auxV);
 NewArray;
 }
